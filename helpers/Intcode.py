@@ -1,13 +1,22 @@
 import sys
+import logging
 
 
 class IntCode:
-    def __init__(self, program):
+    def __init__(self, program, verbose=False):
+        self.p_org = program
         self.p = program
         self.pointer = 0
         self.instruction = 0
+        self.i_pointer = 0
+        self.output = 0
 
-    def execute(self):
+        if verbose:
+            logging.basicConfig(level=logging.DEBUG)
+        else:
+            logging.basicConfig(level=logging.INFO)
+
+    def execute(self, input_array=None):
         while self.p[self.pointer] != 99:
             instruction = self.p[self.pointer]
             opcode = self.get_opcode(instruction)
@@ -34,17 +43,23 @@ class IntCode:
 
             # Get input value
             elif opcode == 3:
-                # set parameters
-                print("Input needed, please provide an Integer as input:")
-                self.p[self.p[self.pointer + 1]] = int(input())
+                if input_array is not None:
+                    self.p[self.p[self.pointer + 1]] = input_array[self.i_pointer]
+
+                    self.i_pointer += 1
+                else:
+                    # set parameters
+                    logging.info("\tInput needed, please provide an Integer as input:")
+                    self.p[self.p[self.pointer + 1]] = int(input())
 
                 self.pointer += 2
 
             # Output value
             elif opcode == 4:
-                print("Output: ")
+                logging.info("\tOutput: ")
                 value1 = self.get_value(instruction, 1)
-                print(value1)
+                self.output = value1
+                logging.info("\t\t" + str(value1))
 
                 self.pointer += 2
 
@@ -90,7 +105,9 @@ class IntCode:
             else:
                 print("Unknown opcode encountered: " + str(opcode) + " at position: " + str(self.pointer))
                 sys.exit()
-        return self.p
+
+        self.p = self.p_org.copy()
+        return self.output
 
     @staticmethod
     def get_opcode(instruction):
