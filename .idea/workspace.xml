@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961a9eaf-72dc-4305-8456-9a697592663a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/day7/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/problem1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/problem2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/problem1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/problem2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day7/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/problem1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/problem1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/problem2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/problem2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/Intcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Intcode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,29 +17,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day8/input.txt">
+      <file leaf-file-name="problem2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day7/problem2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15000" selection-start-column="15000" selection-end-column="15000" />
+            <state relative-caret-position="127">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="problem1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day8/problem1.py">
+        <entry file="file://$PROJECT_DIR$/day7/problem1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="102" selection-end-line="31" />
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day8/problem2.py">
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day7/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state>
+              <caret column="1116" selection-start-column="1116" selection-end-column="1116" />
             </state>
           </provider>
         </entry>
@@ -69,12 +72,14 @@
       <find>CB6</find>
       <find>DGN</find>
       <find>print</find>
+      <find>phase_settings</find>
     </findStrings>
     <replaceStrings>
       <replace>password</replace>
       <replace>self.p</replace>
       <replace>self.pointer</replace>
       <replace>node_id_child</replace>
+      <replace>permutation</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,13 +109,13 @@
         <option value="$PROJECT_DIR$/day6/problem1.py" />
         <option value="$PROJECT_DIR$/day6/input.txt" />
         <option value="$PROJECT_DIR$/day6/problem2.py" />
-        <option value="$PROJECT_DIR$/day7/problem1.py" />
-        <option value="$PROJECT_DIR$/day7/input.txt" />
-        <option value="$PROJECT_DIR$/day7/problem2.py" />
-        <option value="$PROJECT_DIR$/helpers/Intcode.py" />
         <option value="$PROJECT_DIR$/day8/problem1.py" />
         <option value="$PROJECT_DIR$/day8/input.txt" />
         <option value="$PROJECT_DIR$/day8/problem2.py" />
+        <option value="$PROJECT_DIR$/day7/problem1.py" />
+        <option value="$PROJECT_DIR$/helpers/Intcode.py" />
+        <option value="$PROJECT_DIR$/day7/input.txt" />
+        <option value="$PROJECT_DIR$/day7/problem2.py" />
       </list>
     </option>
   </component>
@@ -205,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day 8 Problem 2">
+  <component name="RunManager" selected="Python.Day 7 Problem 1">
     <configuration name="Day 1 Problem 1" type="PythonConfigurationType" factoryName="Python">
       <module name="advent2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -594,16 +599,16 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" weight="0.32969698" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32969698" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.53212124" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3927273" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -661,7 +666,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/helpers/Intcode.py</url>
-          <line>96</line>
+          <line>100</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -675,26 +680,48 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/helpers/Intcode.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/helpers/Intcode.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/day8/problem2.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="49" />
+          <url>file://$PROJECT_DIR$/day7/problem2.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="50" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="61" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>program.p</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>program</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>program.execute([phase_setting, output_signal])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>program.execute([8, 155])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>program.execute([9, 0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>layer[0][0]</expression-string>
         <language-id>Python</language-id>
@@ -715,41 +742,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>content[:1*img_width]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>content[:i*img_width]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>program.execute([4,3])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>program.execute([phase_setting, output_signal])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[phase_setting, output_signal]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1772137564/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="512" column="4" selection-start-line="512" selection-start-column="4" selection-end-line="512" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day1/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
@@ -767,37 +762,13 @@
     <entry file="file://$PROJECT_DIR$/day2/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/day2/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="223" selection-start-column="223" selection-end-column="223" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intcode/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/problem2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day4/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/problem1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,27 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="10" lean-forward="true" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/problem1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/problem1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/problem2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -909,40 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day7/input.txt">
+    <entry file="file://$PROJECT_DIR$/day8/problem1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day7/problem1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/Intcode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1111">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day7/problem2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" column="102" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -953,17 +873,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day8/problem1.py">
+    <entry file="file://$PROJECT_DIR$/day2/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="102" selection-end-line="31" />
+        <state>
+          <caret column="24" lean-forward="true" selection-end-column="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/problem1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/problem2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day2/problem1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day2/problem2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day3/problem1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/1772137564/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="3697" lean-forward="true" selection-start-line="3697" selection-end-line="3697" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day8/problem2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="137">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/Intcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/problem1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1116" selection-start-column="1116" selection-end-column="1116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/problem2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

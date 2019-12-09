@@ -14,8 +14,8 @@ def main():
         for permutation in itertools.permutations(phase_settings):
             output_signal = 0
             for phase_setting in permutation:
-                program = IntCode(intcode)
-                output_signal = program.execute([phase_setting, output_signal])
+                program = IntCode(intcode, [phase_setting, output_signal])
+                output_signal = program.execute()
             max_thruster_signal = max(output_signal, max_thruster_signal)
 
         print(max_thruster_signal)

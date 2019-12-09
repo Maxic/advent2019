@@ -3,20 +3,21 @@ import logging
 
 
 class IntCode:
-    def __init__(self, program, verbose=False):
-        self.p_org = program
-        self.p = program
+    def __init__(self, program, input_array=None, verbose=False):
+        self.p = program.copy()
         self.pointer = 0
         self.instruction = 0
+        self.input_array = input_array
         self.i_pointer = 0
         self.output = 0
+        self.state = 'RUNNING'
 
         if verbose:
             logging.basicConfig(level=logging.DEBUG)
         else:
             logging.basicConfig(level=logging.INFO)
 
-    def execute(self, input_array=None):
+    def execute(self):
         while self.p[self.pointer] != 99:
             instruction = self.p[self.pointer]
             opcode = self.get_opcode(instruction)
@@ -43,8 +44,11 @@ class IntCode:
 
             # Get input value
             elif opcode == 3:
-                if input_array is not None:
-                    self.p[self.p[self.pointer + 1]] = input_array[self.i_pointer]
+                if self.input_array is not None:
+                    if self.i_pointer >= self.input_array.__len__():
+                        return self.output
+                    else:
+                        self.p[self.p[self.pointer + 1]] = self.input_array[self.i_pointer]
 
                     self.i_pointer += 1
                 else:
@@ -56,10 +60,10 @@ class IntCode:
 
             # Output value
             elif opcode == 4:
-                logging.info("\tOutput: ")
+                logging.debug("\tOutput: ")
                 value1 = self.get_value(instruction, 1)
                 self.output = value1
-                logging.info("\t\t" + str(value1))
+                logging.debug("\t\t" + str(value1))
 
                 self.pointer += 2
 
@@ -106,7 +110,8 @@ class IntCode:
                 print("Unknown opcode encountered: " + str(opcode) + " at position: " + str(self.pointer))
                 sys.exit()
 
-        self.p = self.p_org.copy()
+        self.state = 'HALTED'
+
         return self.output
 
     @staticmethod
