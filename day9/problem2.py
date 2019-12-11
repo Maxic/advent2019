@@ -6,7 +6,7 @@ def main():
         content = file.readline().split(',')
         intcode = list(map(lambda i: int(i), content))
 
-        program = IntCode(intcode, [1])
+        program = IntCode(intcode, [2])
         program.execute()
 
 
