@@ -1,4 +1,4 @@
-from helpers.Intcode import IntCode
+from helpers.intcode import Intcode
 import itertools
 
 
@@ -12,9 +12,9 @@ def main():
         max_thruster_signal = 0
 
         for permutation in itertools.permutations(phase_settings):
-            amp_array = [IntCode(intcode, [permutation[0]]), IntCode(intcode, [permutation[1]]),
-                         IntCode(intcode, [permutation[2]]), IntCode(intcode, [permutation[3]]),
-                         IntCode(intcode, [permutation[4]])]
+            amp_array = [Intcode(intcode, [permutation[0]]), Intcode(intcode, [permutation[1]]),
+                         Intcode(intcode, [permutation[2]]), Intcode(intcode, [permutation[3]]),
+                         Intcode(intcode, [permutation[4]])]
 
             i = 0
             output_signal = 0

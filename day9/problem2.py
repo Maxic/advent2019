@@ -1,4 +1,4 @@
-from helpers.Intcode import IntCode
+from helpers.intcode import Intcode
 
 
 def main():
@@ -6,8 +6,8 @@ def main():
         content = file.readline().split(',')
         intcode = list(map(lambda i: int(i), content))
 
-        program = IntCode(intcode, [2])
-        program.execute()
+        program = Intcode(intcode, [2])
+        print(program.execute())
 
 
 if __name__ == "__main__":

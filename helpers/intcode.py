@@ -2,14 +2,15 @@ import sys
 import logging
 
 
-class IntCode:
-    def __init__(self, program, input_array=None, verbose=False):
+class Intcode:
+    def __init__(self, program, input_array=[], verbose=False):
         self.p = program.copy()
         self.pointer = 0
         self.instruction = 0
         self.input_array = input_array
         self.i_pointer = 0
         self.output = 0
+        self.output_arr = []
         self.base = 0
         self.p += [0] * 1000
         self.state = 'INITIALIZED'
@@ -74,10 +75,11 @@ class IntCode:
 
             # Output value
             elif opcode == 4:
-                logging.info("\tOutput: ")
+                logging.debug("\tOutput: ")
                 value1 = self.get_value(instruction, 1)
                 self.output = value1
-                logging.info("\t\t" + str(value1))
+                self.output_arr.append(value1)
+                logging.debug("\t\t" + str(value1))
 
                 self.pointer += 2
 
