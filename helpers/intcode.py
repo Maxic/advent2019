@@ -3,7 +3,7 @@ import logging
 
 
 class Intcode:
-    def __init__(self, program, input_array=[], verbose=False):
+    def __init__(self, program, input_array=None, verbose=False):
         self.p = program.copy()
         self.pointer = 0
         self.instruction = 0

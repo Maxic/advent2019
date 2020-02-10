@@ -15,7 +15,7 @@ def main():
         # Create the map for the game
         game_map = [[' '] * 42 for _ in range(27)]
 
-        program = Intcode(intcode, input_array=[])
+        program = Intcode(intcode)
 
         while program.state != 'HALTED':
             program.execute()
